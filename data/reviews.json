@@ -1,0 +1,83 @@
+{
+    "reviews": [
+      {
+        "name": "John Doe",
+        "image": "https://example.com/images/john_doe.jpg",
+        "review": "This course exceeded my expectations. The content was well-structured and easy to follow. I highly recommend it to anyone interested in learning.",
+        "date": "2023-06-22"
+      },
+      {
+        "name": "Jane Smith",
+        "image": "https://example.com/images/jane_smith.jpg",
+        "review": "I found this course to be incredibly informative and engaging. The instructor was knowledgeable, and the interactive exercises helped reinforce my understanding. Great course overall!",
+        "date": "2023-06-20"
+      },
+      {
+        "name": "David Johnson",
+        "image": "https://example.com/images/david_johnson.jpg",
+        "review": "I'm extremely satisfied with this course. The videos were well-produced, and the quizzes and assignments were challenging yet enjoyable. I can already see the improvement in my skills.",
+        "date": "2023-06-18"
+      },
+      {
+        "name": "Emily Wilson",
+        "image": "https://example.com/images/emily_wilson.jpg",
+        "review": "I'm impressed with the quality of the course material. The explanations were clear, and the examples provided were relevant. It's definitely worth the investment.",
+        "date": "2023-06-15"
+      },
+      {
+        "name": "Michael Brown",
+        "image": "https://example.com/images/michael_brown.jpg",
+        "review": "The course instructor was excellent and had a deep understanding of the subject matter. The course material was well-organized and presented in a logical sequence.",
+        "date": "2023-06-12"
+      },
+      {
+        "name": "Sarah Wilson",
+        "image": "https://example.com/images/sarah_wilson.jpg",
+        "review": "I'm grateful for this course. It helped me gain valuable skills that are directly applicable to my job. The practical exercises were especially useful.",
+        "date": "2023-06-10"
+      },
+      {
+        "name": "Christopher Lee",
+        "image": "https://example.com/images/christopher_lee.jpg",
+        "review": "The course content was comprehensive, and the instructor explained complex topics in a way that was easy to understand. The course has definitely expanded my knowledge.",
+        "date": "2023-06-08"
+      },
+      {
+        "name": "Amanda Clark",
+        "image": "https://example.com/images/amanda_clark.jpg",
+        "review": "I highly recommend this course. The instructor was engaging, and the interactive quizzes and projects made the learning process enjoyable. It's a great way to learn.",
+        "date": "2023-06-05"
+      },
+      {
+        "name": "Ryan Davis",
+        "image": "https://example.com/images/ryan_davis.jpg",
+        "review": "The course materials were well-prepared, and the examples provided practical insights. The instructor was responsive to questions, which enhanced the learning experience.",
+        "date": "2023-06-03"
+      },
+      {
+        "name": "Jessica Roberts",
+        "image": "https://example.com/images/jessica_roberts.jpg",
+        "review": "I'm extremely satisfied with this course. The concepts were explained clearly, and the exercises helped solidify my understanding. I can't recommend it enough.",
+        "date": "2023-06-01"
+      },
+      {
+        "name": "Daniel Thompson",
+        "image": "https://example.com/images/daniel_thompson.jpg",
+        "review": "The course was well-structured and covered all the essential topics. The instructor's expertise was evident throughout the course. I'm glad I took this opportunity to learn.",
+        "date": "2023-05-29"
+      },
+      {
+        "name": "Olivia Rodriguez",
+        "image": "https://example.com/images/olivia_rodriguez.jpg",
+        "review": "This course was exactly what I needed to enhance my skills. The instructional videos were clear, and the hands-on exercises allowed me to apply what I learned.",
+        "date": "2023-05-27"
+      },
+      {
+        "name": "Matthew Turner",
+        "image": "https://example.com/images/matthew_turner.jpg",
+        "review": "I thoroughly enjoyed this course. The content was presented in an engaging manner, and the supplementary resources provided additional value. I'm grateful for the learning experience.",
+        "date": "2023-05-25"
+      }
+    ]
+  }
+  
