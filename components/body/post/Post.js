@@ -23,7 +23,7 @@ function Post({post}) {
 
         if(!user) return
 
-        if(user?.displayName == 'Reaper Iff' || user?.email == 'rumlowb@gmail.com'){
+        if(user?.email == 'reaperiff697@gmail.com' || user?.email == 'rumlowb@gmail.com'){
             store.collection('neutral_posts').doc(post?.id).delete()
         }
 

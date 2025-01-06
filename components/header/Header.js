@@ -8,7 +8,10 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
-function Header() {
+function Header({
+    editorModal,
+    setEditorModal
+}) {
     const [user] = useAuthState(creds)
     const [openSidebar, setOpenSidebar] = useState(false)
     const [signOutModal, setSOModal] = useState(false)
@@ -28,7 +31,7 @@ function Header() {
 
     useEffect(() => {
         if(user){
-            store.collection('blog_users').doc(user?.uid).set({
+            store.collection('blog_users').doc(user?.displayName).set({
                 displayName: user?.displayName,
                 email: user?.email,
                 photoURL: user?.photoURL
@@ -37,6 +40,11 @@ function Header() {
             })
         }
       }, [user])
+
+    const openEditorModal = () => {
+        {signOutModal && setSOModal(false)}
+        {!editorModal && setEditorModal(true)}
+    }
 
   return (
     <>
@@ -255,6 +263,28 @@ className="
                 ">
                     {user?.email}
                 </h1>
+                {user?.email == 'rumlowb@gmail.com' && (
+                                    <button
+                                    onClick={openEditorModal}
+                                    className='
+                                    w-[60%]
+                                    h-[40px]
+                                    bg-orange-600
+                                    text-slate-50
+                                    font-montserr
+                                    font-semibold
+                                    hover:-skew-x-6
+                                    hover:bg-orange-700
+                                    active:bg-orange-500
+                                    transform
+                                    transition
+                                    duration-200
+                                    ease-in-out
+                                    '
+                                    >
+                                        Add editors
+                                    </button>
+                )}
                 <button
                 onClick={signOut}
                 className='

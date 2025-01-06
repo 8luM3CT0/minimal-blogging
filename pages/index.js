@@ -20,6 +20,8 @@ export default function Home () {
   const [postText, setPostText] = useState('')
   const [postTitle, setPostTitle] = useState('')
   const [user] = useAuthState(creds)
+  //for adding editors
+  const [editorModal, setEditorModal] = useState(false)
 
   const addPostToDb = e => {
     e.preventDefault()
@@ -56,8 +58,13 @@ export default function Home () {
     store.collection('user_posts').orderBy('addedOn', 'asc')
   )
 
+  const [usersSnap] = useCollection(
+    store.collection('blog_users')
+  )
+
 
   return (
+    <>
     <div
       className='
     h-screen 
@@ -70,7 +77,10 @@ export default function Home () {
       <Head>
         <title>A blog for random thoughts</title>
       </Head>
-      <Header />
+      <Header
+      editorModal={editorModal}
+      setEditorModal={setEditorModal}
+      />
       <main className="
       w-[90%]
       mx-auto
@@ -189,5 +199,160 @@ export default function Home () {
         </div>
       </main>
           </div>
+          {editorModal && (
+            <div className="
+            h-screen
+            w-screen
+            bg-slate-800
+            bg-opacity-70
+            overflow-hidden
+            z-50
+            inset-0
+            fixed
+            flex
+            items-center
+            ">
+              <div 
+              onClick={() => setEditorModal(false)}
+              className="
+              h-full
+              w-[10%]
+              "></div>
+              <div className="
+              h-full
+              w-[80%]
+              flex
+              flex-col
+              ">
+                              <div 
+              onClick={() => setEditorModal(false)}
+              className="
+              h-[5%]
+              w-full
+              "></div>
+              <div className="
+              h-[90%]
+              w-full
+              bg-slate-800
+              border
+              border-amber-500
+              rounded-md
+              ">
+                <header className="
+                h-[7%]
+                w-full
+                border-b
+                border-amber-500
+                flex
+                items-center
+                justify-between
+                px-4
+                py-3
+                ">
+                  <h3 className="
+                  font-google-sans
+                  -skew-x-6
+                  font-semibold
+                  text-lg
+                  text-amber-500
+                  ">
+                    Add editors below
+                  </h3>
+                </header>
+                <div className="
+                h-[93%]
+                w-full
+                px-4
+                py-3
+                border
+                border-orange-600
+                flex
+                flex-col
+                space-y-6
+                ">
+                  <div className="
+                  h-[45%]
+                  w-[90%]
+                  mx-auto
+                  border
+                  border-amber-700
+                  rounded-md
+                  ">
+                    <header className="
+                    h-[7%]
+                    w-full
+                    px-4
+                    border-b
+                    border-amber-700
+                    flex
+                    items-center
+                    ">
+                      <h5 className="
+                      text-amber-700
+                      font-montserr
+                      font-semibold
+                      ">
+                        Logged users
+                      </h5>
+                    </header>
+                    <div className="
+                    h-[93%]
+                    w-full
+                    flex
+                    items-center
+                    space-x-7
+                    "></div>
+                  </div>
+                 <div className="
+                  h-[45%]
+                  w-[90%]
+                  mx-auto
+                  border
+                  border-amber-700
+                  rounded-md
+                  ">
+                                        <header className="
+                    h-[7%]
+                    w-full
+                    px-4
+                    border-b
+                    border-amber-700
+                    flex
+                    items-center
+                    ">
+                      <h5 className="
+                      text-amber-700
+                      font-montserr
+                      font-semibold
+                      ">
+                        Editors
+                      </h5>
+                    </header>
+                    <div className="
+                    h-[93%]
+                    w-full
+                    flex
+                    items-center
+                    space-x-7
+                    "></div>
+                  </div>
+                </div>
+              </div>
+                               <div 
+              onClick={() => setEditorModal(false)}
+              className="
+              h-[5%]
+              w-full
+              "></div>
+              </div>
+             <div 
+              onClick={() => setEditorModal(false)}
+              className="
+              h-full
+              w-[10%]
+              "></div>
+            </div>
+          )}
+          </>
   )
 }
