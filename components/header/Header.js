@@ -83,7 +83,7 @@ function Header({
                 Sign in
             </h2>
             )}
-            {user && (
+            {/*user && (
                 <>
                     <span 
             onClick={() => router.push('/chat')}
@@ -96,6 +96,8 @@ function Header({
                 />
                 <h1>Chat</h1>
             </span>
+                </>
+            )*/}
             {user && (
                             <span 
                             onClick={() => router.push('/rooms')}
@@ -108,8 +110,6 @@ function Header({
                                 />
                                 <h1>Rooms</h1>
                             </span>
-            )}
-                </>
             )}
         </div>
         <div 

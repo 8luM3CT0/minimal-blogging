@@ -52,19 +52,25 @@ function RoomsModal({buttonAction}) {
     return (
     <div 
     className='
-    h-screen
-    w-screen
+    h-full
+    w-full
     fixed
     inset-0
+    z-50
     overflow-hidden
-    grid
-    place-items-center
+    flex
+    items-center
     bg-slate-800
     bg-opacity-75
     '>
+        <div
+        onClick={buttonAction}
+        lassName="
+        h-full
+        w-[10%]
+        "></div>
         <div className="
         h-[50%]
-        lg:w-[60%]
         w-[80%]
         bg-slate-700
         bg-opacity-80
@@ -236,6 +242,12 @@ function RoomsModal({buttonAction}) {
             </button>
             </footer>
         </div>
+        <div
+        onClick={buttonAction}
+        lassName="
+        h-full
+        w-[10%]
+        "></div>
     </div>
   )
 }

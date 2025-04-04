@@ -35,24 +35,15 @@ function RoomsDisplay({roomId, doc}) {
   }
 
   //return members list with code below
-  //YOU. ESPECIALLY YOU. YOU FUCKING WORK, YOU SHOULD WORK
   const [membersList] = useCollection(
     store.collection('blogRooms').doc(roomId).collection('roomMembers').orderBy('addedOn', 'asc')
   ) 
-  //YOU SHOULD FUCKING WORK. WHY AREN'T YOU, FUCKING HELL
-
+  
   //function to both test user if existent within the room && to go to said room
   const [userSnapshot, loadingSnapshot, error] = useCollection(
     store.collection('blogRooms').doc(roomId).collection('roomMembers').where('memberEmail', '==', user?.email)
   )
 
-  //please work 
-  //this entire thing hinges in
-  //you working/
-  //please fucking work
-
-
-  //this one did. finally
   const checkUserIfMember = async () => {
     if(user){
       try {
@@ -69,6 +60,8 @@ function RoomsDisplay({roomId, doc}) {
   useEffect(() => {
     checkUserIfMember()
   }, [user])
+
+  const [membersListModal, setMembersListModal] = useState(false)
 
   return (
     <>
@@ -129,12 +122,17 @@ function RoomsDisplay({roomId, doc}) {
       w-screen
       bg-slate-800
       bg-opacity-80
-      grid
-      place-items-center
+      flex
+      items-center
       inset-0
       z-50
       fixed
       ">
+        <div 
+        onClick={() => setRoomModal(false)}
+        className="
+        roomsDisplaySideDiv
+        "></div>
         <div className="
         roomsDisplayModal
         ">
@@ -155,32 +153,6 @@ function RoomsDisplay({roomId, doc}) {
             ">
               Room details
             </h1>
-            <button 
-            onClick={() => setRoomModal(false)}
-            className="
-            rounded-full
-            px-3
-            py-1
-            border
-            text-lg
-            text-amber-500
-            border-amber-500
-            grid
-            place-items-center
-            font-montserr
-            font-semibold
-            hover:text-amber-700
-            hover:border-amber-700
-            hover:-skew-x-6
-            focus:outline-none
-            -inset-full
-            transform
-            transition
-            delay-100
-            ease-in-out
-            ">
-              X
-            </button>
           </header>
           <main className="
           h-[90%]
@@ -330,29 +302,32 @@ function RoomsDisplay({roomId, doc}) {
                 px-2
                 py-1
                 ">
-                  <button 
-                  onClick={addMember}
-                  className="
-                  w-[45%]
-                  h-[50px]
-                  border
-                  border-amber-500
-                  text-base
-                  text-amber-500
-                  hover:border-amber-700
-                  hover:text-amber-700
-                  hover:-skew-x-6
-                  focus:outline-none
-                  delay-100
-                  -inset-full
-                  transform
-                  transition
-                  ease-in-out
-                  ">
-                    Add member
-                  </button>
+                  {(user?.email == 'rumlowb@gmail.com' || user?.email == doc?.creator ) && (
+                                      <button 
+                                      onClick={addMember}
+                                      className="
+                                      w-[45%]
+                                      h-[50px]
+                                      border
+                                      border-amber-500
+                                      text-base
+                                      text-amber-500
+                                      hover:border-amber-700
+                                      hover:text-amber-700
+                                      hover:-skew-x-6
+                                      focus:outline-none
+                                      delay-100
+                                      -inset-full
+                                      transform
+                                      transition
+                                      ease-in-out
+                                      ">
+                                        Add member
+                                      </button>
+                  )}
                   {(user?.email == 'rumlowb@gmail.com' || user?.email == doc?.creator) && (
                                       <button 
+                                      onClick={() => setMembersListModal(true)}
                                       className="
                                       w-[45%]
                                       h-[50px]
@@ -453,6 +428,111 @@ function RoomsDisplay({roomId, doc}) {
             )}
           </footer>
         </div>
+        <div 
+        onClick={() => setRoomModal(false)}
+        className="
+        roomsDisplaySideDiv
+        "></div>
+      </div>
+    )}
+    {membersListModal && (
+      <div className="
+      fixed
+      inset-0
+      z-50
+      h-full
+      w-full
+      flex
+      items-center
+      ">
+        <div 
+        onClick={() => setMembersListModal(false)}
+        className="
+        h-full
+        w-[15%]
+        "></div>
+        <div className="
+        w-[70%]
+        h-full
+        flex
+        flex-col
+        ">
+          <div 
+          onClick={() => setMembersListModal(false)}
+          className="
+          h-[12%]
+          w-full
+          "></div>
+          <div className="
+          h-[76%]
+          w-full
+          bg-slate-900
+          border
+          border-amber-700
+          rounded
+          ">
+            <header className="
+            w-full
+            h-[60px]
+            px-4
+            flex
+            items-center
+            justify-between
+            border-b
+            border-amber-700
+            ">
+              <h4 className="
+              font-fira-sans
+              font-semibold
+              text-amber-600
+              text-lg
+              ">
+                Add members from logged-in users
+              </h4>
+            </header>
+            <div className="
+            h-[95%]
+            w-[90%]
+            py-4
+            mx-auto
+            flex
+            flex-col
+            items-start
+            ">
+              <h3 className="
+              font-fira-sans
+              font-normal
+              text-amber-600
+              text-xl
+              ">
+                Users
+              </h3>
+              <div className="
+              h-[80%]
+              w-[90%]
+              m-auto
+              bg-slate-800
+              bg-opacity-30
+              overflow-y-scroll
+              scrollbar-thin
+              scrollbar-track-slate-900
+              scrollbar-thumb-amber-600
+              "></div>
+            </div>
+          </div>
+          <div 
+          onClick={() => setMembersListModal(false)}
+          className="
+          h-[12%]
+          w-full
+          "></div>
+        </div>
+        <div 
+        onClick={() => setMembersListModal(false)}
+        className="
+        h-full
+        w-[15%]
+        "></div>
       </div>
     )}
    </>

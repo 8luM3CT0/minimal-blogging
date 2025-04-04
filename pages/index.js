@@ -14,6 +14,7 @@ import { creds, store } from '../backend/firebase'
 import {useAuthState} from 'react-firebase-hooks/auth'
 import {useCollection} from 'react-firebase-hooks/firestore'
 import firebase from 'firebase'
+import LoggedUsers from '../components/body/editors/LoggedUsers'
 
 export default function Home () {
 
@@ -301,7 +302,13 @@ export default function Home () {
                     flex
                     items-center
                     space-x-7
-                    "></div>
+                    ">
+                      {usersSnap && usersSnap?.docs.map(userDoc => (
+                        <LoggedUsers 
+                        userId={userDoc?.id}
+                        />
+                      ))}
+                    </div>
                   </div>
                  <div className="
                   h-[45%]

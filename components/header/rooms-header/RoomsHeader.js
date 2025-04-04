@@ -55,7 +55,7 @@ function RoomsHeader() {
                 />
                 <h1>Home</h1>
             </span>
-            <span 
+            {/*<span 
             onClick={() => router.push('/chat')}
             className="headerTitleForChat flex items-center space-x-2">
                 <AiFillMessage 
@@ -65,7 +65,7 @@ function RoomsHeader() {
                 }}
                 />
                 <h1>Chat</h1>
-            </span>
+            </span>*/}
 
         </div>
         <div 
@@ -114,7 +114,7 @@ function RoomsHeader() {
                 <h1>Home</h1>
             </span>
 
-<span 
+{/*<span 
             onClick={() => router.push('/chat')}
 className="
             headerTitleForChat 
@@ -130,7 +130,7 @@ className="
                 }}
                 />
                 <h1>Chat</h1>
-            </span>
+            </span>*/}
         </div>
         <span className="
         headerTitleForChat
