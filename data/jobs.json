@@ -1,0 +1,244 @@
+{
+  "jobs": [
+    {
+      "category": "front-end development",
+      "title": "Front-End Developer",
+      "description": "We are seeking a skilled Front-End Developer to build responsive and user-friendly web applications.",
+      "minimum_qualifications": "1. Proficiency in HTML, CSS, and JavaScript\n2. Experience with front-end frameworks (e.g., React, Angular)\n3. Knowledge of UI/UX principles",
+      "recommended_qualifications": "1. Familiarity with version control systems (e.g., Git)\n2. Experience with testing and debugging tools\n3. Understanding of responsive design",
+      "salary": "$60,000 - $80,000",
+      "company": "TechCo",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "backend development",
+      "title": "Backend Developer",
+      "description": "We are looking for a Backend Developer to design and implement server-side applications and databases.",
+      "minimum_qualifications": "1. Proficiency in a backend programming language (e.g., Python, Node.js)\n2. Experience with database systems (e.g., MySQL, MongoDB)\n3. Knowledge of server-side frameworks",
+      "recommended_qualifications": "1. Familiarity with cloud platforms (e.g., AWS, Azure)\n2. Understanding of RESTful API design\n3. Knowledge of security best practices",
+      "salary": "$70,000 - $90,000",
+      "company": "DevTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "software engineering",
+      "title": "Software Engineer",
+      "description": "We are hiring a Software Engineer to develop and maintain software systems for our clients.",
+      "minimum_qualifications": "1. Bachelor's degree in Computer Science or related field\n2. Proficiency in at least one programming language\n3. Understanding of software development lifecycle",
+      "recommended_qualifications": "1. Experience with software testing and debugging\n2. Familiarity with version control systems\n3. Knowledge of agile methodologies",
+      "salary": "$80,000 - $100,000",
+      "company": "SoftCorp",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "project management",
+      "title": "Project Manager",
+      "description": "We are seeking a skilled Project Manager to oversee the planning and execution of software development projects.",
+      "minimum_qualifications": "1. Proven experience in project management\n2. Strong organizational and leadership skills\n3. Excellent communication and problem-solving abilities",
+      "recommended_qualifications": "1. Familiarity with agile methodologies\n2. Knowledge of project management tools\n3. Certification in project management",
+      "salary": "$90,000 - $110,000",
+      "company": "ProManage",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "data science",
+      "title": "Data Scientist",
+      "description": "We are looking for a Data Scientist to analyze complex datasets and provide actionable insights for our business.",
+      "minimum_qualifications": "1. Master's or Ph.D. in Data Science, Statistics, or related field\n2. Proficiency in statistical analysis tools (e.g., Python, R)\n3. Experience with machine learning algorithms",
+      "recommended_qualifications": "1. Knowledge of big data processing frameworks (e.g., Hadoop, Spark)\n2. Familiarity with data visualization tools\n3. Strong problem-solving skills",
+      "salary": "$100,000 - $120,000",
+      "company": "DataCo",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "ux design & cybersecurity",
+      "title": "UX Designer",
+      "description": "We are hiring a UX Designer to create intuitive and visually appealing user interfaces for our software products.",
+      "minimum_qualifications": "1. Bachelor's degree in UX Design or related field\n2. Proficiency in design software (e.g., Sketch, Adobe XD)\n3. Understanding of user-centered design principles",
+      "recommended_qualifications": "1. Experience with prototyping tools\n2. Familiarity with front-end development languages (e.g., HTML, CSS)\n3. Knowledge of usability testing",
+      "salary": "$70,000 - $90,000",
+      "company": "DesignTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "front-end development",
+      "title": "UI Developer",
+      "description": "We are seeking a talented UI Developer to create visually appealing and user-friendly interfaces for web applications.",
+      "minimum_qualifications": "1. Proficiency in HTML, CSS, and JavaScript\n2. Experience with front-end frameworks (e.g., React, Vue)\n3. Knowledge of cross-browser compatibility",
+      "recommended_qualifications": "1. Familiarity with responsive design principles\n2. Understanding of accessibility standards\n3. Experience with UI/UX design collaboration",
+      "salary": "$65,000 - $85,000",
+      "company": "WebTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "backend development",
+      "title": "Database Developer",
+      "description": "We are looking for a skilled Database Developer to design and optimize databases for our software systems.",
+      "minimum_qualifications": "1. Proficiency in SQL and database management\n2. Experience with database design and optimization\n3. Knowledge of indexing and query optimization",
+      "recommended_qualifications": "1. Familiarity with NoSQL databases\n2. Understanding of database security best practices\n3. Experience with ETL processes",
+      "salary": "$75,000 - $95,000",
+      "company": "DataTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "software engineering",
+      "title": "Full Stack Engineer",
+      "description": "We are hiring a Full Stack Engineer to develop end-to-end web applications, from front-end to server-side.",
+      "minimum_qualifications": "1. Proficiency in front-end languages (e.g., HTML, CSS, JavaScript)\n2. Experience with back-end frameworks (e.g., Node.js, Django)\n3. Knowledge of database systems",
+      "recommended_qualifications": "1. Familiarity with RESTful API design\n2. Understanding of cloud platforms and deployment\n3. Experience with version control systems",
+      "salary": "$85,000 - $105,000",
+      "company": "TechStart",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "project management",
+      "title": "Scrum Master",
+      "description": "We are seeking a Scrum Master to facilitate Agile development processes and ensure effective teamwork and collaboration.",
+      "minimum_qualifications": "1. Proven experience as a Scrum Master or Agile Coach\n2. Strong knowledge of Scrum and Agile methodologies\n3. Excellent communication and leadership skills",
+      "recommended_qualifications": "1. Certification as a Scrum Master\n2. Familiarity with project management tools\n3. Understanding of software development practices",
+      "salary": "$95,000 - $115,000",
+      "company": "AgileTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "data science",
+      "title": "Machine Learning Engineer",
+      "description": "We are looking for a Machine Learning Engineer to develop and deploy machine learning models for our data-driven applications.",
+      "minimum_qualifications": "1. Master's or Ph.D. in Machine Learning, Computer Science, or related field\n2. Proficiency in programming languages (e.g., Python, R)\n3. Experience with machine learning frameworks",
+      "recommended_qualifications": "1. Familiarity with deep learning algorithms and frameworks\n2. Understanding of cloud-based ML platforms\n3. Knowledge of data preprocessing and feature engineering",
+      "salary": "$110,000 - $130,000",
+      "company": "MLTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "ux design & cybersecurity",
+      "title": "Information Security Analyst",
+      "description": "We are hiring an Information Security Analyst to ensure the confidentiality and integrity of our company's information systems.",
+      "minimum_qualifications": "1. Bachelor's degree in Cybersecurity, Computer Science, or related field\n2. Knowledge of network protocols and security\n3. Experience with vulnerability assessments",
+      "recommended_qualifications": "1. Familiarity with security tools (e.g., SIEM, IDS/IPS)\n2. Understanding of risk management principles\n3. Certifications in cybersecurity (e.g., CISSP, CISM)",
+      "salary": "$80,000 - $100,000",
+      "company": "SecureTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "front-end development",
+      "title": "React Developer",
+      "description": "We are seeking a skilled React Developer to build interactive user interfaces using the React library.",
+      "minimum_qualifications": "1. Proficiency in JavaScript and React\n2. Experience with front-end development tools and libraries\n3. Knowledge of state management (e.g., Redux)",
+      "recommended_qualifications": "1. Familiarity with UI/UX design principles\n2. Understanding of server-side rendering\n3. Experience with testing frameworks (e.g., Jest, Enzyme)",
+      "salary": "$70,000 - $90,000",
+      "company": "ReactTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "backend development",
+      "title": "Java Developer",
+      "description": "We are looking for a skilled Java Developer to design and develop server-side applications using Java and related technologies.",
+      "minimum_qualifications": "1. Proficiency in Java and related frameworks (e.g., Spring, Hibernate)\n2. Experience with database systems and SQL\n3. Knowledge of object-oriented programming principles",
+      "recommended_qualifications": "1. Familiarity with web services (e.g., REST, SOAP)\n2. Understanding of design patterns\n3. Experience with build tools (e.g., Maven, Gradle)",
+      "salary": "$75,000 - $95,000",
+      "company": "JavaTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "software engineering",
+      "title": "DevOps Engineer",
+      "description": "We are hiring a DevOps Engineer to streamline software development processes and ensure efficient deployment and operations.",
+      "minimum_qualifications": "1. Proficiency in scripting and automation (e.g., Bash, Python)\n2. Experience with CI/CD pipelines and tools\n3. Knowledge of cloud platforms and containerization",
+      "recommended_qualifications": "1. Familiarity with configuration management tools (e.g., Ansible, Chef)\n2. Understanding of monitoring and logging systems\n3. Experience with infrastructure-as-code",
+      "salary": "$90,000 - $110,000",
+      "company": "DevOpsTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "project management",
+      "title": "Technical Project Manager",
+      "description": "We are seeking a Technical Project Manager to oversee the successful delivery of software development projects.",
+      "minimum_qualifications": "1. Proven experience in technical project management\n2. Strong knowledge of software development processes\n3. Excellent leadership and communication skills",
+      "recommended_qualifications": "1. Familiarity with agile methodologies\n2. Understanding of project management tools and techniques\n3. Certification in project management",
+      "salary": "$100,000 - $120,000",
+      "company": "TechProjects",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "data science",
+      "title": "Data Engineer",
+      "description": "We are looking for a Data Engineer to design and build data pipelines and infrastructure for our data-driven applications.",
+      "minimum_qualifications": "1. Proficiency in programming languages (e.g., Python, SQL)\n2. Experience with big data processing frameworks (e.g., Hadoop, Spark)\n3. Knowledge of data modeling and ETL processes",
+      "recommended_qualifications": "1. Familiarity with cloud platforms and services\n2. Understanding of distributed systems\n3. Experience with data warehousing",
+      "salary": "$80,000 - $100,000",
+      "company": "DataTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "ux design & cybersecurity",
+      "title": "Interaction Designer",
+      "description": "We are hiring an Interaction Designer to create seamless and intuitive user experiences across our digital products.",
+      "minimum_qualifications": "1. Bachelor's degree in Interaction Design or related field\n2. Proficiency in design software and prototyping tools\n3. Understanding of user-centered design principles",
+      "recommended_qualifications": "1. Experience with user research and usability testing\n2. Familiarity with front-end development technologies\n3. Knowledge of accessibility standards",
+      "salary": "$70,000 - $90,000",
+      "company": "UXTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "front-end development",
+      "title": "Angular Developer",
+      "description": "We are seeking a skilled Angular Developer to build dynamic and responsive web applications using the Angular framework.",
+      "minimum_qualifications": "1. Proficiency in TypeScript and Angular\n2. Experience with front-end development tools and libraries\n3. Knowledge of component-based architecture",
+      "recommended_qualifications": "1. Familiarity with reactive programming\n2. Understanding of state management (e.g., NgRx)\n3. Experience with end-to-end testing frameworks (e.g., Protractor)",
+      "salary": "$75,000 - $95,000",
+      "company": "AngularTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "backend development",
+      "title": "PHP Developer",
+      "description": "We are looking for a skilled PHP Developer to design and develop server-side applications using PHP and related technologies.",
+      "minimum_qualifications": "1. Proficiency in PHP and MySQL\n2. Experience with PHP frameworks (e.g., Laravel, Symfony)\n3. Knowledge of web development principles",
+      "recommended_qualifications": "1. Familiarity with RESTful API development\n2. Understanding of front-end technologies (e.g., HTML, CSS, JavaScript)\n3. Experience with version control systems",
+      "salary": "$70,000 - $90,000",
+      "company": "PHPTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "software engineering",
+      "title": "Quality Assurance Engineer",
+      "description": "We are hiring a Quality Assurance Engineer to ensure the high quality and reliability of our software products.",
+      "minimum_qualifications": "1. Proven experience in software quality assurance\n2. Strong knowledge of testing methodologies and tools\n3. Understanding of software development processes",
+      "recommended_qualifications": "1. Familiarity with test automation frameworks\n2. Knowledge of performance testing\n3. Experience with Agile development practices",
+      "salary": "$75,000 - $95,000",
+      "company": "QualityTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "project management",
+      "title": "Product Manager",
+      "description": "We are seeking a Product Manager to lead the development and launch of innovative software products.",
+      "minimum_qualifications": "1. Proven experience as a Product Manager\n2. Strong analytical and problem-solving skills\n3. Excellent communication and leadership abilities",
+      "recommended_qualifications": "1. Familiarity with Agile methodologies\n2. Knowledge of market research and user feedback analysis\n3. Understanding of product lifecycle management",
+      "salary": "$90,000 - $110,000",
+      "company": "ProductTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "data science",
+      "title": "Business Intelligence Analyst",
+      "description": "We are looking for a Business Intelligence Analyst to analyze and interpret complex data to provide actionable insights for business decision-making.",
+      "minimum_qualifications": "1. Bachelor's degree in Business, Statistics, or related field\n2. Proficiency in data analysis tools (e.g., SQL, Excel)\n3. Strong analytical and problem-solving skills",
+      "recommended_qualifications": "1. Experience with data visualization tools (e.g., Tableau, Power BI)\n2. Knowledge of statistical analysis techniques\n3. Familiarity with data warehousing concepts",
+      "salary": "$80,000 - $100,000",
+      "company": "BizTech",
+      "working_hours": "Full-time"
+    },
+    {
+      "category": "ux design & cybersecurity",
+      "title": "Cybersecurity Analyst",
+      "description": "We are hiring a Cybersecurity Analyst to identify and mitigate potential security risks and vulnerabilities in our systems.",
+      "minimum_qualifications": "1. Bachelor's degree in Cybersecurity, Computer Science, or related field\n2. Knowledge of network protocols and security\n3. Experience with security monitoring and incident response",
+      "recommended_qualifications": "1. Familiarity with security assessment and penetration testing\n2. Understanding of security frameworks and compliance\n3. Certifications in cybersecurity (e.g., CompTIA Security+)",
+      "salary": "$80,000 - $100,000",
+      "company": "SecureTech",
+      "working_hours": "Full-time"
+    }
+  ]
+}

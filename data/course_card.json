@@ -1,0 +1,39 @@
+{
+    "course_names": [
+        {
+            "title": "Cybersecurity",
+            "bgImg": "https://i.pinimg.com/564x/73/d4/9c/73d49c1a191413a2cfbf4cdd46824f4e.jpg",
+            "router_link": "cybersecurity"
+        },
+        {
+            "title": "Front-end development",
+            "bgImg": "https://i.pinimg.com/564x/b8/08/cb/b808cbea62e070ddfbeda4fad07f5edf.jpg",
+            "router_link": "frontend"
+        },
+        {
+            "title": "Back-end development",
+            "bgImg": "https://i.pinimg.com/564x/42/14/5c/42145ce95f49250e00448d66eeb2e9ca.jpg",
+            "router_link": "backend"
+        },
+        {
+            "title": "Data science",
+            "bgImg": "https://i.pinimg.com/564x/75/8f/4b/758f4bcf517d5f7c54c395340975c7a8.jpg",
+            "router_link": "data_science"
+        },
+        {
+            "title": "Project management",
+            "bgImg": "https://i.pinimg.com/564x/f8/a5/ca/f8a5ca61e7721d73da6a80f226e5aa40.jpg",
+            "router_link": "projman"
+        },
+        {
+            "title": "Software engineering",
+            "bgImg": "https://i.pinimg.com/564x/f5/ea/6c/f5ea6c9c3cdbcaa2a4c03dd361bda661.jpg",
+            "router_link": "seng"
+        },
+        {
+            "title": "UX design",
+            "bgImg": "https://i.pinimg.com/564x/c5/fa/d1/c5fad1eba428e26b672db95fb3ef95d6.jpg",
+            "router_link": "ux_des"
+        }
+    ]
+}

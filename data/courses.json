@@ -1,0 +1,364 @@
+{
+    "bend_data": [
+        {
+          "id": 1,
+          "title": "Introduction to Backend Development",
+          "description": "Learn the fundamentals of backend development, including server-side programming, databases, and API design.",
+          "duration": "6 weeks"
+        },
+        {
+          "id": 2,
+          "title": "Programming with Python",
+          "description": "Get started with Python programming language and learn how to build backend applications using Python frameworks.",
+          "duration": "8 weeks"
+        },
+        {
+          "id": 3,
+          "title": "Server-side Frameworks (e.g., Node.js, Django, Flask)",
+          "description": "Master popular server-side frameworks like Node.js, Django, or Flask to develop robust and scalable backend applications.",
+          "duration": "10 weeks"
+        },
+        {
+          "id": 4,
+          "title": "Database Management Systems (e.g., SQL, MongoDB)",
+          "description": "Explore database management systems like SQL or MongoDB, and learn how to design and interact with databases in backend development.",
+          "duration": "6 weeks"
+        },
+        {
+          "id": 5,
+          "title": "API Development and Integration",
+          "description": "Learn how to design, develop, and integrate APIs (Application Programming Interfaces) for building connected and interoperable systems.",
+          "duration": "8 weeks"
+        },
+        {
+          "id": 6,
+          "title": "Authentication and Authorization",
+          "description": "Understand various authentication and authorization mechanisms to secure backend APIs and manage user access control.",
+          "duration": "6 weeks"
+        },
+        {
+          "id": 7,
+          "title": "Server Administration and Deployment",
+          "description": "Learn the essentials of server administration, deployment, and DevOps practices for hosting and managing backend applications.",
+          "duration": "8 weeks"
+        },
+        {
+          "id": 8,
+          "title": "Performance Optimization and Caching",
+          "description": "Explore techniques for optimizing backend performance, including caching strategies, query optimization, and resource management.",
+          "duration": "6 weeks"
+        },
+        {
+          "id": 9,
+          "title": "Microservices Architecture",
+          "description": "Understand the concepts and principles of microservices architecture and learn how to design and build scalable distributed systems.",
+          "duration": "10 weeks"
+        }
+      ],
+      "cyb_data": [
+        {
+            "id": 1,
+            "title": "Introduction to Cybersecurity",
+            "description": "A comprehensive introduction to the field of cybersecurity, covering basic concepts, threats, and defensive strategies.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 2,
+            "title": "Network Security",
+            "description": "Learn about securing computer networks, including network protocols, firewalls, intrusion detection systems, and VPNs.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 3,
+            "title": "Ethical Hacking",
+            "description": "Explore the techniques used by ethical hackers to identify and exploit vulnerabilities in systems and networks.",
+            "duration": "10 weeks"
+          },
+          {
+            "id": 4,
+            "title": "Digital Forensics",
+            "description": "Gain knowledge of digital evidence collection and analysis techniques for investigating cybercrimes and security incidents.",
+            "duration": "12 weeks"
+          },
+          {
+            "id": 5,
+            "title": "Secure Coding Practices",
+            "description": "Learn how to write secure code and identify common vulnerabilities, such as SQL injection, cross-site scripting, and buffer overflows.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 6,
+            "title": "Incident Response and Management",
+            "description": "Understand the process of detecting, responding to, and recovering from cybersecurity incidents, including incident handling and coordination.",
+            "duration": "10 weeks"
+          },
+          {
+            "id": 7,
+            "title": "Cryptography",
+            "description": "Explore the principles of encryption, cryptographic algorithms, and secure communication protocols used to protect data and systems.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 8,
+            "title": "Security Operations and SIEM",
+            "description": "Learn about security operations centers (SOC), security information and event management (SIEM) systems, and security monitoring techniques.",
+            "duration": "8 weeks"
+          }
+      ],
+      "dsci_data": [
+        {
+            "id": 1,
+            "title": "Introduction to Data Science",
+            "description": "Get an overview of data science, including data exploration, visualization, and introductory machine learning concepts.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 2,
+            "title": "Python for Data Science",
+            "description": "Learn Python programming language and its libraries commonly used in data science, such as NumPy, Pandas, and Matplotlib.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 3,
+            "title": "Data Cleaning and Preprocessing",
+            "description": "Explore techniques for cleaning and preprocessing raw data to prepare it for analysis and modeling.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 4,
+            "title": "Statistical Analysis and Hypothesis Testing",
+            "description": "Gain knowledge of statistical analysis methods and hypothesis testing to draw insights and make data-driven decisions.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 5,
+            "title": "Machine Learning Algorithms",
+            "description": "Learn popular machine learning algorithms, including linear regression, logistic regression, decision trees, and clustering algorithms.",
+            "duration": "10 weeks"
+          },
+          {
+            "id": 6,
+            "title": "Data Visualization",
+            "description": "Master the art of data visualization using tools like Matplotlib, Seaborn, and Tableau to effectively communicate insights.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 7,
+            "title": "Deep Learning and Neural Networks",
+            "description": "Explore deep learning techniques and neural networks for tasks like image classification, natural language processing, and more.",
+            "duration": "10 weeks"
+          },
+          {
+            "id": 8,
+            "title": "Big Data Analytics",
+            "description": "Learn techniques for handling and analyzing large-scale datasets using tools like Apache Hadoop, Spark, and distributed computing.",
+            "duration": "12 weeks"
+          },
+          {
+            "id": 9,
+            "title": "Time Series Analysis",
+            "description": "Understand time series data, forecasting techniques, and models for analyzing and predicting time-dependent data.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 10,
+            "title": "Data Science in Business",
+            "description": "Explore how data science is applied in various industries, including business analytics, marketing, finance, and customer insights.",
+            "duration": "6 weeks"
+          }
+      ],
+      "fend_data": [
+        {
+            "id": 1,
+            "title": "HTML Fundamentals",
+            "description": "Learn the basics of HTML (Hypertext Markup Language) to structure and organize web content.",
+            "duration": "4 weeks"
+          },
+          {
+            "id": 2,
+            "title": "CSS Styling",
+            "description": "Explore CSS (Cascading Style Sheets) to add styles, layouts, and visual enhancements to web pages.",
+            "duration": "4 weeks"
+          },
+          {
+            "id": 3,
+            "title": "JavaScript Essentials",
+            "description": "Get started with JavaScript programming language, covering the fundamentals and essential concepts for frontend development.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 4,
+            "title": "Responsive Web Design",
+            "description": "Learn techniques to create responsive and mobile-friendly websites that adapt to different screen sizes and devices.",
+            "duration": "4 weeks"
+          },
+          {
+            "id": 5,
+            "title": "Frontend Frameworks (e.g., React, Angular, Vue)",
+            "description": "Master popular frontend frameworks like React, Angular, or Vue to build dynamic and interactive web applications.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 6,
+            "title": "CSS Preprocessors (e.g., Sass, Less)",
+            "description": "Explore CSS preprocessors like Sass or Less to write cleaner and more maintainable CSS code with advanced features.",
+            "duration": "4 weeks"
+          },
+          {
+            "id": 7,
+            "title": "Frontend Build Tools (e.g., Webpack, Gulp)",
+            "description": "Learn how to use frontend build tools like Webpack or Gulp to automate tasks, optimize assets, and enhance development workflow.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 8,
+            "title": "Version Control Systems (e.g., Git)",
+            "description": "Gain proficiency in version control systems like Git to track changes, collaborate with others, and manage code repositories.",
+            "duration": "4 weeks"
+          },
+          {
+            "id": 9,
+            "title": "Accessibility in Web Development",
+            "description": "Understand the importance of web accessibility and learn techniques to create inclusive and usable web interfaces.",
+            "duration": "4 weeks"
+          }
+      ],
+      "projman_data": [
+        {
+          "id": 1,
+            "title": "Introduction to Project Management",
+            "description": "Learn the fundamental principles and best practices of project management, including project planning, scheduling, and budgeting.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 2,
+            "title": "Agile Project Management",
+            "description": "Explore the Agile methodology, including Scrum and Kanban, and understand how to manage projects in an iterative and flexible manner.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 3,
+            "title": "Risk Management",
+            "description": "Gain knowledge of identifying, assessing, and mitigating risks in projects to minimize their impact on project success.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 4,
+            "title": "Project Scope and Requirements",
+            "description": "Learn techniques for defining project scope, eliciting requirements, and managing changes throughout the project lifecycle.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 5,
+            "title": "Team Collaboration and Communication",
+            "description": "Understand effective communication strategies, team dynamics, and collaboration tools to facilitate project success.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 6,
+            "title": "Project Stakeholder Management",
+            "description": "Explore techniques for identifying, analyzing, and engaging stakeholders to ensure their needs are met throughout the project.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 7,
+            "title": "Project Leadership",
+            "description": "Develop leadership skills required to motivate and guide project teams, resolve conflicts, and drive project success.",
+            "duration": "10 weeks"
+          },
+          {
+            "id": 8,
+            "title": "Project Quality Management",
+            "description": "Learn about quality planning, assurance, and control processes to deliver projects that meet or exceed stakeholders' expectations.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 9,
+            "title": "Project Procurement and Vendor Management",
+            "description": "Understand the process of procuring external resources, managing contracts, and effectively working with vendors.",
+            "duration": "8 weeks"
+          }
+      ],
+      "se_data": [
+        {
+          "id": 1,
+            "title": "Introduction to Programming",
+            "description": "A beginner-friendly course that covers the fundamental concepts of programming and introduces popular programming languages.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 2,
+            "title": "Web Development Basics",
+            "description": "Learn the essentials of web development, including HTML, CSS, and JavaScript, to create interactive and responsive websites.",
+            "duration": "10 weeks"
+          },
+          {
+            "id": 3,
+            "title": "Object-Oriented Programming",
+            "description": "Explore the principles of object-oriented programming and learn how to design and implement efficient, modular software systems.",
+            "duration": "12 weeks"
+          },
+          {
+            "id": 4,
+            "title": "Database Management",
+            "description": "Get hands-on experience with database systems, learn SQL, and understand how to design and optimize databases for software applications.",
+            "duration": "6 weeks"
+          },
+          {
+            "id": 5,
+            "title": "Software Testing and Quality Assurance",
+            "description": "Discover various testing techniques and methodologies to ensure software quality, including unit testing, integration testing, and QA processes.",
+            "duration": "8 weeks"
+          },
+          {
+            "id": 6,
+            "title": "Full-Stack Web Development",
+            "description": "Learn both front-end and back-end web development, covering frameworks, databases, APIs, and deployment strategies for building complete web applications.",
+            "duration": "16 weeks"
+          },
+          {
+            "id": 7,
+            "title": "Mobile App Development",
+            "description": "Develop mobile applications for iOS and Android platforms using popular frameworks and languages like Swift, Java, and React Native.",
+            "duration": "14 weeks"
+          },
+          {
+            "id": 8,
+            "title": "Data Structures and Algorithms",
+            "description": "Master fundamental data structures and algorithms, and gain problem-solving skills crucial for efficient software development.",
+            "duration": "10 weeks"
+          }
+      ],
+      "ux_design": [
+        {
+          "id": 1,
+          "title": "Introduction to UX Design",
+          "description": "Learn the fundamental principles and processes of user experience design.",
+          "duration": "6 weeks"
+        },
+        {
+          "id": 2,
+          "title": "User Research and Personas",
+          "description": "Explore user research techniques to understand user needs and create personas for design decision-making.",
+          "duration": "8 weeks"
+        },
+        {
+          "id": 3,
+          "title": "Information Architecture and Interaction Design",
+          "description": "Learn how to structure and organize information effectively and design interactive user interfaces.",
+          "duration": "8 weeks"
+        },
+        {
+          "id": 4,
+          "title": "Usability Testing and User Feedback",
+          "description": "Discover methods for testing usability and gathering user feedback to improve designs.",
+          "duration": "6 weeks"
+        },
+        {
+          "id": 5,
+          "title": "Visual Design for UX",
+          "description": "Develop skills in creating visually appealing and cohesive designs that align with user experience goals.",
+          "duration": "6 weeks"
+        }
+      ]
+}
